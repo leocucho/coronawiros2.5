@@ -58,3 +58,12 @@ nav ul li a{
 .ins{float: right;
     width: 5%;
     height: 5%;}
+ .navbar-brand{
+     color: white;
+     transition: fontSize .25s ease-in-out;
+ }   
+ .navbar-brand:hover{
+   font-size: 50px;
+    color:red !important;
+
+}
