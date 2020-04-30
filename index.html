@@ -1,34 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>My HTML page</title>
-            <link rel="stylesheet" href="estilos.css">
-            <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
-       
-    </head>
-    <body>
-        <h1> CORONAWIROS</h1>
-        <nav class="menu">
-            <ul>
-                <li><a href="#">Actualidad</a></li>
-                <li><a href="#">noticias</a></li>
-                <li><a href="#">videos</a></li>
-                <li><a href="#">contacto</a></li>
-            </ul>
-        </nav>
-        <article>
-        </article>
-        <h2>RECETAS CANABICAS</h2>
-        <img src="img1.jpg" alt="designer"/>
-        <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero voluptatibus illo quasi minima magnam voluptates expedita aperiam at quos repellendus esse nobis accusantium, vel a debitis totam. Minima, ipsum veritatis.
-        </p>
-        <footer>
+  <head>
+    <meta charset="utf-8">
+    <title>My HTML page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  </head>
+  <body>
+    
+    <!-- Class container -->
+    <div class="container">
+
+      <!-- New row -->
+      <div class="row mb-5">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">CORONAWIROS.PE</a> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Cultura</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Gourmet</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Blog
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Opinión</a>
+                    <a class="dropdown-item" href="#">Política</a>
+                    <a class="dropdown-item" href="#">Salud</a>
+                  </div>
+                </li>
+
+              </ul>
+              
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <!-- New row -->
+      <div class="row">
+        <div class="col-12">
+          
+        </div>
+      </div>
+
+      <!-- New row -->
+      <div class="row">
+        <div class="col-12">
+          <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad accusantium aliquid vero et molestias accusamus veritatis eum magnam sunt, voluptatem itaque sint. Possimus neque similique facere, doloribus blanditiis maiores?</p>
+          </article>
+        </div>
+      </div>
+
+      <!-- New row -->
+      <div class="row">
+        <div class="col-12">
+          <article>
+            <h2>RECETAS CANABICAS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad accusantium aliquid vero et molestias accusamus veritatis eum magnam sunt, voluptatem itaque sint. Possimus neque similique facere, doloribus blanditiis maiores?</p>
+            <img src="img1.jpg" alt="designer"/>
+          </article>
+        </div>
+      </div>
+
+      <!-- New row -->
+      <div class="row">
+        <div class="col-12">
+          <footer>
             <img class="fb" src="fb.jpg">
             <img class="ins" src="ins.jpg">
             <img class="tw" src="tw.jpg">
-            
-        </footer>
-    </body>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- end container -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>
