@@ -103,3 +103,7 @@ div.col {
 div.col:hover {
     color: violet;
 }
+.nav-link{
+    font-size: 18px;
+    color: darkgreen;
+}
