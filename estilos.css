@@ -181,28 +181,35 @@ a.dropdown-item{
 .coronawiros-ranking .punk article h2 {
     color: white;
  }
-.coronawiros-ultimasnoticias .abc{color: black;
-            transition: width 1.5s, height 1.5, transform 1.5s;
-                -moz-transition: width 1.5s, height 1.5s, -moz-transform 1.5s;
-                -webkit-transition: width 1.5s, height 1.5s, -webkit-transform 1.5s;
-                -o-transition: width 1.5s, height 1.5s,-o-transform 1.5s;
-            
-            }
-.coronawiros-ultimasnoticias .abc:hover{
-         transform : scale(1.2);
-       -webkit-transform : scale(1.2);
-        animation-duration: 2s;
-    }
-    .coronawiros-ultimasnoticias .abc:hover p{
-        display: block;
-    }
-    
-    .coronawiros-ultimasnoticias .abc p{
-        font-size: 18px;
-        padding: 15px;
-    }    
-    .coronawiros-ultimasnoticias .abc:hover p.lu{
-        display: none;
 
-        
-    }
+.coronawiros-ultimasnoticias .abc {
+    color: black;
+    transition: transform 0.25s ease-in-out;
+    -moz-transition: -moz-transform 0.25s ease-in-out;
+    -webkit-transition: -webkit-transform 0.25s ease-in-out;
+    -o-transition: -o-transform 0.25s ease-in-out;
+    
+}
+
+.coronawiros-ultimasnoticias .abc:hover{
+    transform : scale(1.2);
+    -webkit-transform : scale(1.2);
+}
+
+.coronawiros-ultimasnoticias .abc p {
+    min-height: 120px;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.coronawiros-ultimasnoticias .abc p.oculto {
+    display: none;
+}
+
+.coronawiros-ultimasnoticias .abc:hover p.oculto {
+    display: block;
+}
+
+.coronawiros-ultimasnoticias .abc:hover p.lu {
+    display: none;
+}
