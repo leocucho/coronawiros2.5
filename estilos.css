@@ -51,28 +51,8 @@ nav ul li a {
     line-height: 15px;
     padding: 0px 5px;
     font-family: 'Orbitron', sans-serif;
-   
+}
  
-}
-
-
-.fb {
-    float: right;
-    width: 35PX;
-    height: 35PX;
-}
-
-.tw{
-    float: right;
-    width: 35PX;
-    height: 35PX;
-}
-
-.ins{
-    float: right;
-    width: 35PX;
-    height: 35PX;
-}
 
 .navbar-brand {
     font-size: 31px;
@@ -86,6 +66,8 @@ h2 {
     color: green;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
 }
+
+
 
 
 div.col:hover {
@@ -127,10 +109,27 @@ a.dropdown-item{
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size .3s;
-}
+   }
 
 .news:hover,news:focus {
     background-size: 100% 2px;
+
+}
+
+.lu{
+    color: black;
+    transition: width 1.5s, height 1.5, transform 1.5s;
+        -moz-transition: width 1.5s, height 1.5s, -moz-transform 1.5s;
+        -webkit-transition: width 1.5s, height 1.5s, -webkit-transform 1.5s;
+        -o-transition: width 1.5s, height 1.5s,-o-transform 1.5s;
+        
+      
+}
+.lu:hover{
+     transform : scale(1.5);
+   -webkit-transform : scale(1.5);
+    animation-duration: 2s;
+    
 }
 
  .dot {
