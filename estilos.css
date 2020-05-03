@@ -75,51 +75,47 @@ nav ul li a {
 }
 
 .navbar-brand {
-    font-size: 45px;
+    font-size: 31px;
     background-image: url(fondo.jpg);
-    color: white;
+    color: red;
     font-family: 'Permanent Marker', cursive;
     transition: fontSize .25s ease-in-out;
 }
 
-.navbar-brand:hover{
-    font-size: 65px;
-    color:red !important;
-}
-
-h2{
+h2 {
     color: green;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
-   }
+}
 
 
 div.col:hover {
     color: violet;
 }
 
-.nav-link{
-    background-color: black;
-    font-size: 18px;
-    color: white ;   
+.nav-link {
+    font-size: 16px;
+    color: #000 !important;
+    background: #e9ecef;
+    border-color: #fff #fff #fff  !important;
 }
-  
+
+.nav-link.active {
+    color: #fff !important;
+    background-color: black !important;
+}
 
 a.dropdown-item{
-      background-color: black;
-      color: white;
-      line-height: 25px;
+    background-color: black;
+    color: white;
+    line-height: 25px;
     padding: 0px 5px;
-  } 
+} 
 
-
-  
-
- .segundo{
+.segundo{
    position: sticky;
    color: black;
    font-size: 45px;   
    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   
  }
 
  .news{
@@ -131,32 +127,70 @@ a.dropdown-item{
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size .3s;
-    
-     }
+}
 
-     .news:hover,news:focus {
-        background-size: 100% 2px;
-    }
+.news:hover,news:focus {
+    background-size: 100% 2px;
+}
 
  .dot {
-    
     height: 100px;
     width: 100px;
     background-color:black;
     border-radius: 100%;
     display: inline-block;
     color: blanchedalmond;
-    
-  }
+}
   
-  .leo{
+.leo{
     font-family: 'Staatliches', cursive;
     color: black;
-  }
-  .pt-4.my-md-5.pt-md-5.border-top{
+}
+
+.pt-4.my-md-5.pt-md-5.border-top{
     color: white;  
     background-color: black;
     padding: 0px;
-  }
+}
 
-  
+/* Music gender */
+
+/* All h2 in the ranking */
+.coronawiros-ranking article h2 {
+    margin: 0;
+    padding: 10px;
+    font-size: 21px;
+    text-align: left;
+}
+/* All img in the ranking */
+.coronawiros-ranking article img {
+    width: 100%;
+}
+
+
+/* Only for hiphop column */
+.coronawiros-ranking .hiphop article {
+  background: green;
+}
+
+/* Only the h2 in hiphop column */
+.coronawiros-ranking .hiphop article h2 {
+    color: white;
+}
+
+
+/* Only for newwave column */
+.coronawiros-ranking .newwave article {
+    background: yellow;
+}
+
+
+/* Only for punk column */
+.coronawiros-ranking .punk article {
+    background: red;
+}
+
+/* Only the h2 in hiphop column */
+.coronawiros-ranking .punk article h2 {
+    color: white;
+}
