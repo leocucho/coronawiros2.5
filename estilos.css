@@ -118,12 +118,11 @@ a.dropdown-item{
 
 
     
-}
 
  .dot {
     height: 100px;
     width: 100px;
-    background-color:black;
+    background-image:url(hongos.jpg);
     border-radius: 100%;
     display: inline-block;
     color: blanchedalmond;
@@ -131,7 +130,7 @@ a.dropdown-item{
   
 .leo{
     font-family: 'Staatliches', cursive;
-    color: black;
+    color: white;
 }
 
 .pt-4.my-md-5.pt-md-5.border-top{
@@ -157,7 +156,29 @@ a.dropdown-item{
 
 /* Only for hiphop column */
 .coronawiros-ranking .hiphop article {
-  background: green;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  border-radius: 10px;
+}
+
+.efecto{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0,0,0,8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+ .efecto:hover{
+    transform: scaleY(1);
+
 }
 
 /* Only the h2 in hiphop column */
@@ -168,13 +189,16 @@ a.dropdown-item{
 
 /* Only for newwave column */
 .coronawiros-ranking .newwave article {
-    background: yellow;
-}
+    background: black;
+    border-radius: 10px;
+    }
 
 
 /* Only for punk column */
 .coronawiros-ranking .punk article {
-    background: red;
+    background: black;
+    border-radius: 10px;
+    font-size: 18px;
 }
 
 /* Only the h2 in hiphop column */
@@ -184,10 +208,10 @@ a.dropdown-item{
 
 .coronawiros-ultimasnoticias .abc {
     color: black;
-    transition: transform 0.25s ease-in-out;
-    -moz-transition: -moz-transform 0.25s ease-in-out;
-    -webkit-transition: -webkit-transform 0.25s ease-in-out;
-    -o-transition: -o-transform 0.25s ease-in-out;
+    transition: transform 2s ease-in-out;
+    -moz-transition: -moz-transform 2s ease-in-out;
+    -webkit-transition: -webkit-transform 2s ease-in-out;
+    -o-transition: -o-transform 2s ease-in-out;
     
 }
 
@@ -213,3 +237,40 @@ a.dropdown-item{
 .coronawiros-ultimasnoticias .abc:hover p.lu {
     display: none;
 }
+.redes{
+    background-color: white;
+    float: left;
+    margin-left: 25px;        
+}
+
+.redes img{
+    width: 55px;
+    height: 35px;
+}
+.izq{
+    text-align: center;
+}
+.drc{
+    text-align: right;    
+}
+
+img{
+    width: 250px;
+    height: 200px;
+    margin: 0px;
+    float: left;
+    border-radius: 10px;
+}  
+
+.parra{
+    text-align: right;
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 20px;    
+}
+.final{
+    background-color: rgba(0, 0, 0.5, 0.2);
+}
+
+.last{
+    background-color: rgba(0.8,0.5, 7, 0.1);
